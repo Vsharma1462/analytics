@@ -657,11 +657,12 @@ a=np.arange(1,7).reshape(3,2)
 
 b = np.ravel(a)
 
-c=a.ravel()
+c=a.ravel()        # ndarray method
 
 print(c)
 
 b[4]=10        # original array will be affected
 
 print(a)
- 
+
+#------------------------------------------------------------------------------------------------ 
