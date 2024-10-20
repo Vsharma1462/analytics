@@ -1,0 +1,48 @@
+{
+    "libraries": [
+        {
+            "Category": "Data Science and Machine Learning",
+            "Libraries": "NumPy, Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn, TensorFlow, Keras, PyTorch, Statsmodels"
+        },
+        {
+            "Category": "Web Development",
+            "Libraries": "Flask, Django, FastAPI, Tornado, Requests"
+        },
+        {
+            "Category": "Automation and Web Scraping",
+            "Libraries": "Selenium, BeautifulSoup, Scrapy, PyAutoGUI, MechanicalSoup"
+        },
+        {
+            "Category": "Game Development",
+            "Libraries": "Pygame, Panda3D, Arcade"
+        },
+        {
+            "Category": "GUI Development",
+            "Libraries": "Tkinter, PyQt, Kivy, wxPython"
+        },
+        {
+            "Category": "Network Programming",
+            "Libraries": "Socket, Twisted, Paramiko, asyncio"
+        },
+        {
+            "Category": "Database",
+            "Libraries": "SQLite3, SQLAlchemy, PyMySQL, Psycopg2, MongoDB (PyMongo), Redis-py"
+        },
+        {
+            "Category": "Testing",
+            "Libraries": "Unittest, PyTest, Coverage.py, Nose2"
+        },
+        {
+            "Category": "Image Processing and Computer Vision",
+            "Libraries": "OpenCV, Pillow (PIL), scikit-image"
+        },
+        {
+            "Category": "Cryptography and Security",
+            "Libraries": "Cryptography, PyCryptodome, Paramiko, Hashlib"
+        },
+        {
+            "Category": "Other Useful Libraries",
+            "Libraries": "Datetime, Logging, OS, Subprocess, Random"
+        }
+    ]
+}

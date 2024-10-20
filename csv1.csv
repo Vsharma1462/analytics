@@ -1,0 +1,14 @@
+Category,Libraries
+Data Science and Machine Learning,"NumPy, Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn, TensorFlow, Keras, PyTorch, Statsmodels"
+Web Development,
+Automation and Web Scraping,"Selenium, BeautifulSoup, Scrapy, PyAutoGUI, MechanicalSoup"
+Game Development,
+GUI Development,"Tkinter, PyQt, Kivy, wxPython,Panda3D, Arcade"
+Network Programming,"Socket, Twisted, Paramiko, asyncio"
+Database,"SQLite3, SQLAlchemy, PyMySQL, Psycopg2, MongoDB (PyMongo), Redis-py"
+Testing,"Unittest, PyTest, Coverage.py, Nose2"
+Image Processing and Computer Vision,"OpenCV, Pillow (PIL), scikit-image"
+Cryptography and Security,"Cryptography, PyCryptodome, Paramiko, Hashlib"
+Other Useful Libraries,"Datetime, Logging, OS, Subprocess, Random"
+GUI Development,"Tkinter, PyQt, Kivy, wxPython,Panda3D, Arcade"
+GUI Development,"Tkinter, PyQt, Kivy, wxPython,Panda3D, Arcade"
