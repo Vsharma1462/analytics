@@ -647,7 +647,7 @@ for i in b:
 
 print(b[5])
 
------------------------------------------------------------------------------"""
+-----------------------------------------------------------------------------
 # ravel() converts n dimensinaol array  into an one dimensional array view not an separate copy
 # it is numpy library function  
 
@@ -666,3 +666,95 @@ b[4]=10        # original array will be affected
 print(a)
 
 #------------------------------------------------------------------------------------------------ 
+# concept of transpose()
+# transpose two dimensinaol array
+import numpy as np
+
+a=np.arange(1,13).reshape(3,4)
+
+#print(a)
+
+b=np.transpose(a)
+
+print(b)
+
+----------------------------------------------------------------------------------------
+#   transposing 3 dimensional array
+import numpy as np
+
+a=np.arange(1,25).reshape(2,3,4)
+
+#print(a)
+
+b=np.transpose(a)      # by default (4,3,2) dimension
+
+print(b)
+
+------------------------------------------------------------------------
+
+import numpy as np
+
+a=np.arange(1,25).reshape(2,3,4)
+
+#print(a)
+
+b=np.transpose(a,axes=(2,0,1))      # 2- column of a, 0- dimension of a, 1- dimension of rows of a
+
+print(b)
+
+----------------------------------------
+
+import numpy as np
+
+a=np.arange(1,25).reshape(2,3,4)
+
+#print(a)
+
+b=np.transpose(a,axes=(2,1,0))      # 2- column of a, 0- dimension of a, 1- dimension of rows of a
+
+# shape of b is (4,3,2 )
+print(b) 
+---------------------------------------------------------------------
+
+
+import numpy as np
+
+a=np.arange(1,25).reshape(2,3,4)
+
+#print(a)
+
+b=a.transpose((2,0,1))
+
+print(b)
+
+----------------------------------------------------
+
+
+import numpy as np
+  
+a=np.arange(1,25).reshape(2,3,4)
+
+#print(a)
+
+b=a.T
+
+print(b)
+
+-----------------------------------------------------------------"""
+
+import mysql.connector
+
+connection=mysql.connector.connect(
+    host='127.0.0.1',
+    user='root',
+    password='12345',
+    database='local'
+
+)
+
+my_cursor = connection.cursor()
+
+connection.commit()
+
+connection.close()
+

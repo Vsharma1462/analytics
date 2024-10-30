@@ -1,0 +1,21 @@
+
+print('1mysq')
+
+
+import mysql.connector
+
+connection=mysql.connector.connect(
+    host='127.0.0.1',
+    port=3306,
+    user='root',
+    password='12345',
+    database='local'
+
+)
+
+my_cursor = connection.cursor()
+print('my_cursor=', my_cursor)
+connection.commit()
+
+connection.close()
+
